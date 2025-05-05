@@ -1,0 +1,54 @@
+{
+  "name": "HaloHud",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "^1.2.1",
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-navigation/bottom-tabs": "^7.3.4",
+    "@react-navigation/native": "^7.1.0",
+    "react": "19.0.0",
+    "react-native": "0.78.2",
+    "react-native-bluetooth-classic": "^1.73.0-rc.13",
+    "react-native-contact-pick": "^0.1.2",
+    "react-native-get-location": "^5.0.0",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-maps": "^1.20.1",
+    "react-native-screens": "^4.10.0",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "0.78.2",
+    "@react-native/eslint-config": "0.78.2",
+    "@react-native/metro-config": "0.78.2",
+    "@react-native/typescript-config": "0.78.2",
+    "@types/jest": "^29.5.13",
+    "@types/mapbox__polyline": "^1.0.5",
+    "@types/react": "^19.0.0",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "@types/react-test-renderer": "^19.0.0",
+    "eslint": "^8.19.0",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-test-renderer": "19.0.0",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
